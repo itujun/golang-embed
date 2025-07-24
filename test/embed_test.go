@@ -1,4 +1,4 @@
-package golang_embed
+package test
 
 import (
 	"embed"
@@ -22,7 +22,7 @@ func TestEmbedFileToString(t *testing.T){
 	fmt.Println(version2);
 }
 
-//go:embed favicon.ico 
+//go:embed favicon.ico
 var favicon []byte
 
 //go:embed logo/logo.png 
